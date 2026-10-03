@@ -43,11 +43,12 @@ The raw data and region lookup CSVs are included in the repository. To reproduce
 6. Calculate monthly changes and flagged regions, then generate the draft CII report.
 
 	**python metrics_engine.py**
+   
 	**python draft_report.py**
 	
-7. Run **python review_gate.py** to exercise the approve/edit/reject review flow. It appends test entries to `audit_log.jsonl`.
+8. Run **python review_gate.py** to exercise the approve/edit/reject review flow. It appends test entries to `audit_log.jsonl`.
 
-8. Launch the live dashboard. Streamlit prints a local URL in the terminal(http://localhost:****/)
+9. Launch the live dashboard. Streamlit prints a local URL in the terminal(http://localhost:****/)
 
 	**python streamlit run app.py**
 
