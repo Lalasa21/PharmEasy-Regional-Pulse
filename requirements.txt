@@ -1,0 +1,4 @@
+# Requires Python 3.10 or newer; install the interpreter separately.
+pandas
+plotly
+streamlit
