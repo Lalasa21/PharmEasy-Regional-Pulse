@@ -10,7 +10,9 @@ Then, from the repository root, create and activate a virtual environment and in
 
 **python -m venv .venv**
 **.\.venv\Scripts\Activate.ps1**
+
 If Powershell blocks activation: **Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass**
+
 **python -m pip install --upgrade pip**
 **python -m pip install -r requirements.txt**
 
